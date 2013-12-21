@@ -1,4 +1,6 @@
-gem 'rest_client'
+source 'https://rubygems.org'
+
+gem 'rest-client'
 
 group :testing do
   gem 'rspec'

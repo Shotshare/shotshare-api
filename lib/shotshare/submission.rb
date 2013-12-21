@@ -7,5 +7,9 @@ module Shotshare
 
   class Submission
 
+    def self.hello_world
+      ::RestClient.get('http://shotshare.it/api/submissions/1')
+    end
+
   end
 end
